@@ -1,0 +1,19 @@
+class Main {
+
+    function void main() {
+        var Array a;
+
+        // test memory alloc
+        do Output.printInt(Memory.alloc(3));
+
+        // print 2048, 2049
+        let a = 2048;
+        do Output.println();
+        do Output.printInt(a[0]);
+        do Output.println();
+        do Output.printInt(a[1]);
+        do Output.println();
+        do Output.printInt(a[2]);
+        return;
+    }
+}

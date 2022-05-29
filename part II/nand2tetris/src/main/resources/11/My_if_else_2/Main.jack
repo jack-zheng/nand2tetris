@@ -1,0 +1,43 @@
+/**
+ * Declare variable and print it.
+ * This test is aim to test var declare + let statement
+ */
+class Main {
+
+   function void main() {
+      var int i, j;
+      let i = 1;
+      if (i > 2) {
+        do Output.printInt(2);
+      }
+      else {
+        do Output.printInt(1);
+      }
+
+      if (i = 1) {
+        do Output.printInt(2);
+      }
+      return;
+   }
+
+}
+
+// function Main.main 2
+// push constant 1
+// pop local 0
+// push local 0
+// push constant 2
+// gt
+// not
+// if-goto L1
+// push constant 2
+// call Output.printInt 1
+// pop temp 0
+// goto L2
+// label L1
+// push constant 1
+// call Output.printInt 1
+// pop temp 0
+// label L2
+// push constant 0
+// return

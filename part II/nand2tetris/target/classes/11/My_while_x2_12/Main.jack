@@ -1,0 +1,21 @@
+// test while statement in while
+// 1 2 2 1 2 2 1 2 2
+class Main {
+   function void main() {
+      var int a, b;
+      let a = 0;
+
+      while( a < 3) {
+        do Output.printInt(1);
+
+        let b = 0;
+        while( b < 2) {
+            do Output.printInt(2);
+            let b = b + 1;
+        }
+
+        let a = a + 1;
+      }
+      return;
+   }
+}

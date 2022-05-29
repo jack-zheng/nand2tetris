@@ -1,0 +1,8 @@
+class Main {
+    static boolean test, test2;
+
+    function void main(int count, String name) {
+         var Array a;
+         let a[1] = 1;
+        }
+}

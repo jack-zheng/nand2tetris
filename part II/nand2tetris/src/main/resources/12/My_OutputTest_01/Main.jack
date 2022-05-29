@@ -1,0 +1,47 @@
+class Main {
+
+    function void main() {
+        // do Output.printInt(-1 & 255);
+        // do Output.printChar(97);
+        var Array screen;
+        var Array a;
+        var int i, address;
+        var int low, high;
+
+        let low = 255;
+        let high = -256;
+
+
+        let screen = 16384;
+        let i = 0;
+        let address = 0;
+
+        let a = Array.new(11);
+        let a[0] = 0;
+        let a[1] = 0;
+        let a[2] = 0;
+        let a[3] = 14;
+        let a[4] = 24;
+        let a[5] = 30;
+        let a[6] = 27;
+        let a[7] = 27;
+        let a[8] = 53;
+        let a[9] = 0;
+        let a[10] = 0;
+        // 0,0,0,14,24,30,27,27,54,0,0
+
+        while (i < 11) {
+            let screen[address] = screen[address] & high | a[i];
+            let screen[address] = screen[address] & low | (a[i]*256);
+
+            let i = i + 1;
+            let address = address + 32;
+        }
+
+
+        do Output.println();
+        do Output.printChar(97);
+
+        return;
+    }
+}

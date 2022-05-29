@@ -1,0 +1,12 @@
+class Number {
+   field int counter;
+   constructor Number new(int origin) {
+      let counter = origin;
+      return this;
+   }
+
+   method void plus(int other) {
+    do Output.printInt(other);
+    return;
+   }
+}

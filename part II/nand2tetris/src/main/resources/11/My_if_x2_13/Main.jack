@@ -1,0 +1,18 @@
+// test while statement in while
+// a b b a b b a b b
+class Main {
+   function void main() {
+      var boolean a, b;
+      let a = true;
+      let b = true;
+
+      if (a) {
+        do Output.printInt(1);
+        if (b) {
+            do Output.printInt(2);
+        }
+      }
+
+      return;
+   }
+}

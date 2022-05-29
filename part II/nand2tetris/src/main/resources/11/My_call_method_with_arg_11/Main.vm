@@ -1,0 +1,10 @@
+function Main.main 1
+push constant 100
+call Number.new 1
+pop local 0
+push local 0
+push constant 100
+call Number.plus 2
+pop temp 0
+push constant 0
+return

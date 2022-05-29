@@ -1,0 +1,12 @@
+// test if int value will try like a boolean in if statement
+class Main {
+
+    function void main() {
+        var int a, b;
+        let a = 3;
+        let b = 2;
+
+        do Output.printInt(a&b);
+        return;
+    }
+}

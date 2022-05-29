@@ -1,0 +1,36 @@
+function Main.main 1
+push constant 3
+call Memory.alloc 1
+call Output.printInt 1
+pop temp 0
+push constant 2048
+pop local 0
+call Output.println 0
+pop temp 0
+push constant 0
+push local 0
+add
+pop pointer 1
+push that 0
+call Output.printInt 1
+pop temp 0
+call Output.println 0
+pop temp 0
+push constant 1
+push local 0
+add
+pop pointer 1
+push that 0
+call Output.printInt 1
+pop temp 0
+call Output.println 0
+pop temp 0
+push constant 2
+push local 0
+add
+pop pointer 1
+push that 0
+call Output.printInt 1
+pop temp 0
+push constant 0
+return

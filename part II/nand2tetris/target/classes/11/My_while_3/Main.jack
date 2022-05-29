@@ -1,0 +1,45 @@
+class Main {
+
+   function void main() {
+      var int i, j;
+      let i = 3;
+      let j = 3;
+      while (i > 0) {
+        let i = i - 1;
+      }
+      do Output.printInt(i);
+
+      while(j < 10) {
+        let j = j + 3;
+      }
+      do Output.printInt(j);
+      return;
+   }
+
+}
+
+/**
+ * label L1
+ * compiled (expression)
+ * not
+ * if-goto L2
+ * compiled (statements)
+ * goto L1
+ * label L2
+ */
+
+// function Main.main 1
+// push constant 3
+// pop local 0
+// label whileL1
+// push local 0
+// push constant 0
+// gt
+// not
+// if-goto whileL2
+// push local 0
+// push constant 1
+// sub
+// pop local 0
+// goto whileL1
+// label whileL2

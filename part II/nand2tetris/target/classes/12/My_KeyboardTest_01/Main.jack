@@ -1,0 +1,30 @@
+class Main {
+
+    function void main() {
+        var int readInt;
+        let readInt = Keyboard.readInt("Enter int value you want to show: ");
+        do Output.printInt(readInt);
+        // do Output.printInt(Keyboard.readChar());
+
+        // var String a;
+        // let a = String.new(64);
+
+        // do Output.printInt(a.length());
+        // do Output.println();
+
+        // do a.appendChar(97);
+        // do a.appendChar(97);
+        // do Output.printInt(a.length());
+        // do Output.println();
+
+        // do Output.printString(a);
+        // do Output.println();
+
+        // do a.eraseLastChar();
+        // do Output.printString(a);
+
+        // do Output.backSpace();
+
+        return;
+    }
+}

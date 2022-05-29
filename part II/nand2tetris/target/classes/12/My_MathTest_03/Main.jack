@@ -1,0 +1,21 @@
+class Main {
+
+    function void main() {
+        var Array test;
+        var int a;
+
+        let a = 3;
+        let test = Array.new(1);
+        let test[0] = 2;
+
+        do Output.printInt(~((a&test[0]) = 0));
+        do Output.println();
+        do Output.printInt((a&test[0]) = 0);
+
+
+        if (4) {
+            do Output.printInt(4);
+        }
+        return;
+    }
+}

@@ -1,0 +1,33 @@
+class Main {
+
+    function void main() {
+        // do Screen.drawPixel(0, 0);
+        // do Screen.drawPixel(1, 1);
+        // do Screen.setColor(false);
+        // do Screen.drawPixel(0, 0);
+
+        // do Screen.drawHorizontalLine(100, 100, 100);
+        // do Screen.drawVerticalLine(100, 100, 100);
+        // do Screen.drawDiagonalLine(100, 100, -100, -100);
+
+        // hor
+        // do Screen.drawLine(100, 100, 200, 100);
+        // do Screen.drawLine(200, 110, 100, 110);
+        // ver
+        // do Screen.drawLine(50, 100, 50, 200);
+        // do Screen.drawLine(60, 200, 60, 90);
+
+        // Diagonal
+        // do Screen.drawLine(10, 10, 100, 100);
+        // do Screen.drawLine(200, 200, 60, 90);
+        // do Screen.drawReverseDiagonalLine(10, 100, 100, 10);
+        // do Screen.drawLine(10, 100, 100, 10);
+        // do Screen.drawRectangle(10, 10, 200, 200);
+        // do Screen.drawCircle(100, 100, 30);
+        // do Screen.setColor(false);
+        // do Screen.drawCircle(100, 100, 29);
+        do Screen.drawLine(280,90,345,35);        // roof
+        do Screen.drawLine(345,35,410,90);        // roof
+        return;
+    }
+}

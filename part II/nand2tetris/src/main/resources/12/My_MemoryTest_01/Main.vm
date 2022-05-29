@@ -1,0 +1,11 @@
+function Main.main 0
+push constant 2500
+push constant 3
+call Memory.poke 2
+pop temp 0
+push constant 2500
+call Memory.peek 1
+call Output.printInt 1
+pop temp 0
+push constant 0
+return

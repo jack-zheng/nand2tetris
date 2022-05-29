@@ -1,0 +1,41 @@
+class Main {
+
+    function void main() {
+        var String str;
+        var String intS;
+        let str = String.new(10);
+        let intS = String.new(3);
+
+        do intS.appendChar(49);
+        do intS.appendChar(49);
+        do intS.appendChar(49);
+
+        do str.appendChar(94);
+        do str.appendChar(94);
+        do str.appendChar(94);
+        do str.appendChar(94);
+        do str.appendChar(94);
+
+        // do Output.printInt(str.length());
+        // do Output.println();
+
+        // do Output.printInt(str.charAt(3));
+        // do Output.println();
+
+        // do Output.printInt(str.charAt(100));
+        // do Output.println();
+
+        do Output.printString(str);
+
+        // do str.setCharAt(3, 99);
+        // do Output.printString(str);
+        // do Output.println();
+
+        // do str.eraseLastChar();
+        // do Output.printString(str);
+        // do Output.println();
+
+        // do Output.printInt(intS.intValue());
+        return;
+    }
+}

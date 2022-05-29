@@ -1,0 +1,33 @@
+class Main {
+
+    function void main() {
+        // var boolean ret;
+        // do Output.printInt(Math.bit(1, 0));
+        // do Output.printInt(Math.bit(1, 1));
+        // do Output.println();
+
+        // let ret = Math.bit(9, 2);
+        // do Output.printInt(ret);
+
+        // let ret = Math.bit(9, 3);
+        // do Output.printInt(ret);
+
+        // let ret = Math.bit(16384 + 16384, 15);
+        // do Output.printInt(ret);
+
+        // do Output.printInt(Math.abs(-3));
+        // do Output.printInt(Math.abs(4));
+        // do Output.printInt(Math.multiply(3, 1));
+        // do Output.println();
+        // do Output.printInt(Math.multiply(3, 5));
+        // do Output.println();
+        // do Output.printInt(Math.multiply(3, 6));
+
+        // do Output.printInt(Math.divide(7, 3));
+        // do Output.printInt(Math.sqrt(4));
+        // do Output.printInt(Math.sqrt(5));
+        do Output.printInt(Math.max(5, 4));
+        do Output.printInt(Math.min(5, 4));
+        return;
+    }
+}

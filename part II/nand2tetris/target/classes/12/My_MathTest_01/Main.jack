@@ -1,0 +1,18 @@
+// test if int value will try like a boolean in if statement
+class Main {
+
+    function void main() {
+        var int a, b;
+        let a = 1;
+        let b = 0;
+
+        if (a) {
+            do Output.printInt(1);
+        }
+
+        if (b) {
+            do Output.printInt(0);
+        }
+        return;
+    }
+}

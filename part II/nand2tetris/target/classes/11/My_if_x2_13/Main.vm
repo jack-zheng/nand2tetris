@@ -1,0 +1,27 @@
+function Main.main 2
+push constant 0
+not
+pop local 0
+push constant 0
+not
+pop local 1
+push local 0
+not
+if-goto ifL_1_0
+push constant 1
+call Output.printInt 1
+pop temp 0
+push local 1
+not
+if-goto ifL_1_0
+push constant 2
+call Output.printInt 1
+pop temp 0
+goto ifL_2_0
+label ifL_1_0
+label ifL_2_0
+goto ifL_2_1
+label ifL_1_1
+label ifL_2_1
+push constant 0
+return

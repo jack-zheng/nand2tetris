@@ -1,0 +1,21 @@
+// 11
+class Main {
+   function void main() {
+      var boolean a, b;
+      let a = false;
+      let b = false;
+
+      if (a) {
+        do Output.printInt(1);
+        if (b) {
+            do Output.printInt(2);
+        } else {
+            do Output.printInt(22);
+        }
+      } else {
+        do Output.printInt(11);
+      }
+
+      return;
+   }
+}

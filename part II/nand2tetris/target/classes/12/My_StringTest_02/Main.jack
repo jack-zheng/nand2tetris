@@ -1,0 +1,15 @@
+class Main {
+
+    function void main() {
+        var String str;
+        let str = String.new(3);
+        // do str.setInt(123);
+        do str.appendChar(94);
+        do str.appendChar(94);
+        do str.appendChar(94);
+
+        do Output.printString(str);
+        do str.dispose();
+        return;
+    }
+}

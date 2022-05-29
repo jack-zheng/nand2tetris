@@ -1,0 +1,17 @@
+class Fraction {
+   field int number;
+   constructor Fraction new(int number) {
+      let number = number;
+      return this;
+   }
+
+   method void print() {
+      do innerMethod();
+      return;
+   }
+
+   method void innerMethod() {
+    do Output.printInt(2);
+    return;
+   }
+}

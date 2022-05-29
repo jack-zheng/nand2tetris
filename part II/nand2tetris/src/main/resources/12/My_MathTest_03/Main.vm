@@ -1,0 +1,49 @@
+function Main.main 2
+push constant 3
+pop local 1
+push constant 1
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push constant 2
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push local 1
+push constant 0
+push local 0
+add
+pop pointer 1
+push that 0
+and
+push constant 0
+eq
+not
+call Output.printInt 1
+pop temp 0
+call Output.println 0
+pop temp 0
+push local 1
+push constant 0
+push local 0
+add
+pop pointer 1
+push that 0
+and
+push constant 0
+eq
+call Output.printInt 1
+pop temp 0
+push constant 4
+if-goto IF_TRUE0
+goto IF_FALSE0
+label IF_TRUE0
+push constant 4
+call Output.printInt 1
+pop temp 0
+label IF_FALSE0
+push constant 0
+return

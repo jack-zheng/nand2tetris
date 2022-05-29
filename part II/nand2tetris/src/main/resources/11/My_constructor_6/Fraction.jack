@@ -1,0 +1,17 @@
+class Fraction {
+   field int numerator, denominator;  // field = property = member variable.
+  
+   constructor Fraction new(int x, int y) {
+      let numerator = x;
+      let denominator = y;
+      return this;   // a constructor is expected to return a reference to the new object
+   }
+
+   /** Prints this fraction in the format x/y. */
+   method void print() {
+      do Output.printInt(numerator);
+      do Output.printString("/");
+      do Output.printInt(denominator);
+      return;
+   }
+}

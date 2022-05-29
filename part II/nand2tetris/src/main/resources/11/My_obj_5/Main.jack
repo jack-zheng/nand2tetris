@@ -1,0 +1,19 @@
+class Main {
+
+   function void main() {
+      var String str;
+      var int i;
+      let str = "hello world";
+      let i = str.length();
+      do Output.printInt(i);
+      return;
+   }
+
+}
+
+// function Main.main 1
+// push constant 8000
+// call Memory.peek 1
+// pop local 0
+// push local 0
+// call Output.printInt 1

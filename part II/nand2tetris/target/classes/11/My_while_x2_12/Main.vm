@@ -1,0 +1,37 @@
+function Main.main 2
+push constant 0
+pop local 0
+label while_START_1
+push local 0
+push constant 3
+lt
+not
+if-goto while_END_1
+push constant 1
+call Output.printInt 1
+pop temp 0
+push constant 0
+pop local 1
+label while_START_2
+push local 1
+push constant 2
+lt
+not
+if-goto while_END_2
+push constant 2
+call Output.printInt 1
+pop temp 0
+push local 1
+push constant 1
+add
+pop local 1
+goto while_START_2
+label while_END_2
+push local 0
+push constant 1
+add
+pop local 0
+goto while_START_1
+label while_END_1
+push constant 0
+return

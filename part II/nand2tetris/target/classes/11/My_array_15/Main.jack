@@ -1,0 +1,12 @@
+class Main {
+
+    function void main() {
+        var Array a, b;
+        let a = Array.new(1);
+        let b = Array.new(1);
+        let a[0] = 3;
+        let b[0] = a[0];
+        do Output.printInt(b[0]);
+        return;
+    }
+}

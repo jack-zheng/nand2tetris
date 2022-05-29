@@ -1,0 +1,11 @@
+class Main {
+
+    function void main() {
+        // the ram below 2048 is specified for register and tack, so when compile with built-in compiler,
+        // poke with address below 2048 would throw exception
+        // do Memory.poke(2500, 3);
+        // do Output.printInt(Memory.peek(2500));
+
+        return;
+    }
+}

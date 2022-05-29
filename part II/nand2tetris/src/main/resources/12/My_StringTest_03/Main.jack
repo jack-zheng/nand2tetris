@@ -1,0 +1,12 @@
+class Main {
+
+    function void main() {
+        var String str;
+        let str = String.new(0);
+
+        do str.dispose();
+
+
+        return;
+    }
+}

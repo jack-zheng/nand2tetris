@@ -1,0 +1,4 @@
+class Main {
+    field int a;
+    static String b;
+}
